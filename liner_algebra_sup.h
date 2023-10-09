@@ -1,6 +1,7 @@
 //----------------------------------------
 //
 // Written by Sny 09/19/2023
+// last update 10/9/2023
 // Have fun Programing! :3
 //
 //----------------------------------------
@@ -89,7 +90,7 @@ namespace AlgebraSup
 			}
 			
 			Matrix<T> operator*(Matrix<T> _another) {
-				if (this->size_rect != _another.size_rect)
+				if (this->size_rect.y != _another.size_rect.x)
 				{
 					Matrix<T> _tempMatrix;
 
@@ -99,10 +100,32 @@ namespace AlgebraSup
 				{
 					vector<T> _tempVector;
 					vector<vector<T>> _temp2dVector;
-					//next_updata:3
+
+
 					Matrix<T> _tempMatrix;
-					_tempMatrix._datas = _temp2dVector;
+					int newsize_y =				size_rect.y;
+					int newsize_x = _another.	size_rect.x;
+					//make the answers size right;
+					vector<T>_tempvec;
+					for (int _y = 0; _y < newsize_y; _y++) {
+						for (int _x = 0; _x < newsize_x; _x++) {
+							_tempvec.push_back(0);
+						}
+						_tempMatrix._datas.push_back(_tempvec);
+						_tempvec.clear();
+					}
+					//do the operation
 					_tempMatrix.flush_size();
+					for (int i = 0; i < newsize_y; i++) {
+						for (int j = 0; j < newsize_x; j++) {
+							T sigma = 0;
+							for (int k = 0; k < newsize_x; k++) {
+								sigma += _datas[i][k] * _another._datas[k][j];
+							}
+							_tempMatrix._datas[i][j] = sigma;
+							sigma = 0;
+						}
+					}
 					return _tempMatrix;
 				}
 			}
