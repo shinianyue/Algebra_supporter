@@ -5,8 +5,12 @@ The whole file(or programe) will be written in a single headfile named algebre_s
 ## DESCRIBTION
 The Library contains following objects
 #### STRUCTS
+martrix：the main viable itcontines a two dimension. 
 
-#### VARLABLES
+#### OPERATERS
++：
+-:
+*:
 
 #### FUNCTIONS
 
