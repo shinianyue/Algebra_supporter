@@ -11,7 +11,7 @@ martrix：the main viable itcontines a two dimension.
 ｜operater｜equation｜
 ｜--------｜---------｜
 ｜+｜Cij = Aij + Bij｜
-—----------
+
 
 #### FUNCTIONS
 
