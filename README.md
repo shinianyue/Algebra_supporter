@@ -10,6 +10,7 @@ martrix：the main viable itcontines a two dimension.
 #### OPERATERS
 
 | Syntax      | Description |
+|nb|123|
 | ----------- | ----------- |
 | Header      | Title       |
 | Paragraph   | Text        |
