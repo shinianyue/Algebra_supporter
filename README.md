@@ -9,7 +9,7 @@ martrix：the main viable itcontines a two dimension.
 
 #### OPERATERS
 ｜ operater ｜ equation ｜
-｜ -------- ｜ -------- ｜
+｜ ———————— ｜ ——— ｜
 ｜ + ｜ Cij = Aij + Bij ｜
 
 
