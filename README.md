@@ -9,11 +9,10 @@ martrix：the main viable itcontines a two dimension.
 
 #### OPERATERS
 
-| Syntax      | Description |
-|nb|123|
+| operater    | equation    |
 | ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+| +      | Cij = Aij + Bij       |
+| -   | Cij = Aij - Bij        |
 #### FUNCTIONS
 
 ## USE
