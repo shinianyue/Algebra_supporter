@@ -13,7 +13,7 @@ martrix：the main viable itcontines a two dimension.
 | ----------- | ----------- |
 | +           | Cij = Aij + Bij       |
 | -           | Cij = Aij - Bij        |
-| *           | \sigma 
+| *           | $\sum$ 
 #### FUNCTIONS
 
 ## USE
